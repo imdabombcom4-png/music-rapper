@@ -1,0 +1,46 @@
+# FL Studio Automation - Example Commands
+
+## Sample Processing Examples
+
+# Basic pitch shift and insert
+take sample.wav, pitch down 3 semitones, insert at bar 40 beat 3
+
+# Time stretch and pitch shift
+load vocal.wav, pitch down 5 semitones, stretch by 0.82, insert at bar 16
+
+# Filter and slice
+use drums.wav, lowpass 5000 hz, slice into 8, insert at measure 8
+
+# Complex processing chain
+take melody.flac, pitch up 7 semitones, stretch by 1.2, highpass 200 hz, insert at bar 1 beat 1
+
+## Beat Generation Examples
+
+# Memphis style with 808s
+create a memphis style beat with 808s at 170 bpm
+
+# Trap beat in D minor
+make a trap beat in key of Dm with 808s
+
+# Lo-fi hip-hop
+generate a lofi beat at 80 bpm 8 bars
+
+# Boom bap beat
+create a boom bap beat at 90 bpm in key of Am
+
+# Drill beat
+make a drill beat with 808s at 145 bpm in key of C#m 4 bars
+
+## Interactive Commands
+
+# Show available genres
+genres
+
+# Show available scales
+scales
+
+# Show help
+help
+
+# Exit
+quit

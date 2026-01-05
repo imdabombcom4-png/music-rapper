@@ -1,0 +1,34 @@
+# FL Studio Configuration
+fl_studio:
+  executable_path: "C:/Program Files/Image-Line/FL Studio 21/FL64.exe"  # Update this to your FL Studio path
+  projects_dir: "C:/Users/YourUsername/Documents/Image-Line/FL Studio/Projects"
+  samples_dir: "C:/Users/YourUsername/Documents/Image-Line/FL Studio/Audio/Samples"
+  midi_port: "FL STUDIO MIDI"  # FL Studio's MIDI input port name
+
+# Audio Processing Defaults
+audio:
+  sample_rate: 44100
+  default_tempo: 140
+  default_key: "C"
+
+# Music Generation Settings
+music:
+  genres:
+    memphis:
+      tempo_range: [160, 180]
+      swing: 0.6
+      typical_drums: ["snare", "hihat", "kick", "808"]
+    trap:
+      tempo_range: [130, 150]
+      swing: 0.5
+      typical_drums: ["snare", "hihat_roll", "kick", "808"]
+    lofi:
+      tempo_range: [70, 90]
+      swing: 0.7
+      typical_drums: ["snare", "hihat", "kick"]
+
+# Pattern Generation
+patterns:
+  default_length: 4  # bars
+  quantize: true
+  quantize_value: 16  # 16th notes
